@@ -8,6 +8,8 @@ import android.widget.TextView
 import androidx.fragment.app.Fragment
 import androidx.fragment.app.activityViewModels
 import com.squareup.picasso.Picasso
+import org.w3c.dom.Text
+
 class BookDetailsFragment : Fragment() {
 
     private lateinit var bookTitle: TextView
@@ -25,7 +27,6 @@ class BookDetailsFragment : Fragment() {
         bookTitle = view.findViewById(R.id.titleTextView2)
         bookAuthor = view.findViewById(R.id.authorTextView2)
         bookCover = view.findViewById(R.id.bookCoverImageView)
-
         return view
     }
 

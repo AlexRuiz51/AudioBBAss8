@@ -29,6 +29,8 @@ class MainActivity : AppCompatActivity(), BookListFragment.BookSelectedInterface
         super.onCreate(savedInstanceState)
         setContentView(R.layout.activity_main)
 
+        supportFragmentManager.beginTransaction().add(R.id.controlContainer, ControllerFragment()).commit()
+
         mainSearchButton = findViewById(R.id.mainSearchButton)
 
         mainSearchButton.setOnClickListener {
