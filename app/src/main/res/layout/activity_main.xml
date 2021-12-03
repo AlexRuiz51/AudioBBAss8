@@ -7,29 +7,55 @@
     android:background="@color/black"
     tools:context=".MainActivity">
 
+    <Button
+        android:id="@+id/buttonSecondActivity"
+        android:layout_width="316dp"
+        android:layout_height="40dp"
+        android:layout_margin="10dp"
+        android:src="@drawable/ic_launcher_foreground"
+        android:text="@string/search"
+        android:backgroundTint="@color/pink"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        tools:ignore="SpeakableTextPresentCheck,TouchTargetSizeCheck" />
+
     <FrameLayout
         android:id="@+id/container1"
+<<<<<<< Updated upstream
         android:layout_width="413dp"
         android:layout_height="496dp"
         android:layout_marginTop="16dp"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="1.0"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/mainSearchButton" />
-
-    <Button
-        android:id="@+id/mainSearchButton"
-        android:layout_width="0dp"
-        android:layout_height="wrap_content"
+=======
+        android:layout_width="374dp"
+        android:layout_height="416dp"
         android:layout_marginStart="16dp"
         android:layout_marginTop="16dp"
         android:layout_marginEnd="16dp"
-        android:backgroundTint="@color/pink"
-        android:text="@string/bookSearch"
+        android:layout_marginBottom="16dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+>>>>>>> Stashed changes
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/buttonSecondActivity"
+        app:layout_constraintVertical_bias="0.0">
+
+
+    </FrameLayout>
+
+    <FrameLayout
+        android:id="@+id/container3"
+        android:layout_width="376dp"
+        android:layout_height="200dp"
+        app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent"
-        tools:ignore="TextContrastCheck" />
+        app:layout_constraintTop_toBottomOf="@+id/container1">
+
+    </FrameLayout>
 
     <androidx.fragment.app.FragmentContainerView
         android:id="@+id/controlContainer"
