@@ -1,0 +1,11 @@
+<resources>
+    <string name="app_name">AudioBB</string>
+    <string name="search">Search</string>
+    <string name="play">Play</string>
+    <string name="pause">Pause</string>
+    <string name="stop">Stop</string>
+    <string name="now_playing">Now playing</string>
+    <string name="query">Enter a Book Title or Author</string>
+    <string name="playing">Playing:</string>
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+</resources>
